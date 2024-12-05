@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>#tricgy</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="main-text">
         #tricgy
+    </div>
+    <div class="bottom-text">
+        Tricgy is on its way
     </div>
 </body>
 </html>
