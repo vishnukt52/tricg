@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px; /* Add padding at the bottom */
 }
 
 .main-text {
@@ -22,14 +23,23 @@ body {
 
 .bottom-text {
     font-size: 1.5rem;
-    margin-bottom: 10px;
     opacity: 0.9;
     font-weight: 400;
 }
 
 .mail-text {
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 400;
     opacity: 0.8;
+}
+
+.mail-text a {
+    color: white; /* Keeps the link color consistent with the design */
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.mail-text a:hover {
+    text-decoration: underline; /* Adds an underline on hover for better accessibility */
 }
